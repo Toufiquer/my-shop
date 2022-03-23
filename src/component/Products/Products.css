@@ -2,7 +2,6 @@
     background-color: aqua;
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-gap: 9px;
 }
 .products {
     background-color: royalblue;
@@ -13,6 +12,6 @@
 }
 .cart-container .cart {
     position: sticky;
-    top: 0;
-    background-color: azure;
+    top: 10px;
+    min-height: 100vh;
 }
