@@ -1,0 +1,22 @@
+.product {
+    height: 600px;
+    border: 1px groove lightgrey;
+    background-color: lightsteelblue;
+    position: relative;
+}
+.product button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 9px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+}
+
+.product button:hover {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    cursor: pointer;
+}
