@@ -3,6 +3,10 @@
     border: 1px groove lightgrey;
     background-color: lightsteelblue;
     position: relative;
+    padding: 9px;
+}
+.product img {
+    width: 100%;
 }
 .product button {
     position: absolute;

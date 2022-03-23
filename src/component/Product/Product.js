@@ -1,13 +1,15 @@
 import React from "react";
 import "./Product.css";
-const Product = () => {
+const Product = ({ product }) => {
+    let { name, price, ratings, img } = product;
+    console.log(product);
     return (
         <div className="product">
-            <img src="" alt="" />
+            <img src={img} alt="" />
             <div className="details">
-                <h2>Name of Products</h2>
-                <h2>Price: </h2>
-                <h5>Want to buy.</h5>
+                <h2>{name}</h2>
+                <h2>Price: ${price} </h2>
+                <h5>Rating {ratings} Star</h5>
             </div>
             <button>Add To Cart</button>
         </div>
